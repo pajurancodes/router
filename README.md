@@ -2,7 +2,7 @@
 
 A request router based on the FastRoute library.
 
-## Route caching on production:
+### Route caching on production
 
 On instantiating the router, all routes from the route collection are added to the route collector,
 independent of the cache settings. If caching is enabled, then the route data collected from the
